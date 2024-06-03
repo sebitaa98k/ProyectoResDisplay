@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1,6;
+    overflow: hidden;
+    place-items: center;
+    background-color: rgb(23, 23, 112);
+
+}
+
+/* navbar */
+.icon-wifi{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.icon-bluetooth{
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);    
+}
+
+.icon-clock{
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.icon-time{
+    margin-top: -45px;
+    margin-left: 55px;
+}
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 236, 236);
+    border: 4px solid rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 1,7rem;
+    border-radius: 35%;
+}
+
+
+/* main */
+
+
+.icon{
+    width: 430px;
+    height: 430px;
+    color: rgb(234, 102, 102);
+}
+
+.centrado{
+    gap: 100px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
