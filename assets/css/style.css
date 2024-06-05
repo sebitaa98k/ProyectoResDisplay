@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1,6;
+    overflow: hidden;
+    place-items: center;
+    background-color: rgb(23, 23, 112);
+
+}
+
+/* navbar */
+.icon-wifi{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.icon-bluetooth{
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);    
+}
+
+.icon-clock{
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.icon-time{
+    margin-top: -45px;
+    margin-left: 55px;
+}
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 236, 236);
+    border: 4px solid rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 1,7rem;
+    border-radius: 35%;
+}
+
+
+/* main */
+
+
+.icon{
+    width: 430px;
+    height: 430px;
+    color: rgb(234, 102, 102);
+}
+
+.centrado{
+    gap: 100px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.625rem 1rem;
+    gap: 8px;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  }
+  
+  .btn-primary > svg,
+  .btn-icon > svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+  }
+  
+  element.style {
+    padding-bottom: 60px;
+  }
+  
+element.style {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
